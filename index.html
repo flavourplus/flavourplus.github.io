@@ -5,28 +5,308 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Compiled styles (includes bootstrap) -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="style.css">
     <title>Flavourplus</title>
 </head>
 <body>
 
-<h1>Hello, world</h1>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <div class="container">
+            <a href="#top" class="navbar-left js-scroll-trigger"><img src="images/logo.png" alt="logo" height="60"
+                                                                      width="120"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto" id="mainNav">
+                    <!-- todo: add active class based on page scroll -->
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#background">Background</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#customers">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#info">Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main role="main">
+    <a class="anchor" id="top"></a>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide"
+                     src="images/a10.png"
+                     alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <h1>Flavourplus</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#contact" role="button">Contact us</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide"
+                     src="images/a04.png"
+                     alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Placeholder headline</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Placeholder link</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide"
+                     src="images/a02.png"
+                     alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>Placeholder headline</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Placeholder link</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <a class="anchor" id="background"></a>
+    </div>
+
+    <div class="container marketing">
+
+        <h2 class="simple-heading">Our Background</h2>
+        <p class="lead">
+            Flavour Plus is a family owned, family run business with a legacy and standard that precedes itself.
+            Our business was established in 1988 by the late Charbel Elkazzi, growing a variety of fruits, vegetables
+            and herbs in greenhouses.
+            With healthy and natural growth being our focus, in both literal and economic terms,
+            our business expanded over time assisted by our knowledge of strategic planning,
+            business management, unique horticultural strategies, implementation of technology and automated production
+            systems.
+            Our achievements contributing overall to our market leading standards of health, quality, safety and
+            efficiency.
+        </p>
+        <p class="lead">
+            Like any business serious about growth and longevity, the legacy was transitioned to its current, second
+            generation director and son, Alfred Elkazzi.
+            With Alfred at the helm, our business experiences effortless transition and adaption to new technology,
+            staying ahead of the market and its competitors.
+            We embrace change and continual improvement within out organisation and ensure that any new venture does not
+            compromise our brand.
+        </p>
+
+        <a class="anchor" id="product"></a>
+        <hr class="featurette-divider">
+
+        <h2 class="simple-heading">Our Product and Potential</h2>
+        <p class="lead">
+            We have always been located in North-Western Sydney, maintaining easy access to all major city centres,
+            customers and markets.
+            Our produce has always been grown on our 5 acre property which consists of 7500m&sup2; of fully automated
+            greenhouses, with immediate access and plans to develop another 3500m&sup2; as part of our future projected
+            business plan.
+            The property has a 220m&sup2; packing shed with plenty of room and potential for future needs.
+        </p>
+        <p class="lead">
+            Our operations are specifically designed to provide large amounts of produce, and in the last ferw years
+            this has mainly been continental parsley.
+            We currently produce anywhere between 1000-1200 dozen per week between mid-October to mid-June and about
+            400-500 dozen per week between mid-June to mid-October.
+            The production is currently at approximately 44000 dozen per year and can easily increase by around 30% to
+            realise the properties full potential.
+        </p>
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <a class="anchor" id="customers"></a>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Our Customers</h2>
+                <p class="lead">
+                    Our target customer are large businesses looking for a reliable, experienced producer with a quality
+                    product.
+                </p>
+                <p class="lead">
+                    We supply to many large markets, restaurants, private customers and corporations such as those in
+                    connection with Virgin Airlines and Woolworths.
+                </p>
+                <p class="lead">
+                    This gives an understanding of our supply capabilities to provide, maintain and satisfy the demand
+                    of industry leaders.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="images/a03.png"
+                     alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Beyond Tomorrow</h2>
+                <p class="lead">
+                    The ever changing dynamics of our industry has led us to constantly change, adapt and grow.
+                </p>
+                <p class="lead">
+                    Our core focus is to deliver a consistent, fresh quality product as this is the key to customer
+                    satisfaction.
+                </p>
+                <p class="lead">
+                    By embracing and welcoming new and diverse customers, we believe that by offering our services and
+                    partnering with Woolworths will bring both equal benefit, satisfaction and enjoyment to all.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" src="images/a05.png"
+                     alt="Generic placeholder image">
+            </div>
+        </div>
+
+        <a class="anchor" id="info"></a>
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <div class="col-12"><h2 class="simple-heading">Facilities, Quality and Care</h2></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    We are proudly Freshcare&reg; certified and are fully compliant with the Freshcare&reg; code of
+                    practice for Food Safety and Quality. This means that we guarantee extremely high agricultural
+                    practices and provide assurances that our fresh produce is safe to eat and has been prepared to meet
+                    customer requirements.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    Fully Freshcare&reg; certified supply chain solutions which ensure constant quality control from
+                    sourcing,
+                    land preparation, growing, harvesting and packing of fresh produce.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    We have 24/7 remote access and automation that is used to view, maintain and update any mechanism
+                    or control of our facilities from anywhere around the world.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    We grow our plants suspended 900mm off the ground in sustainably sourced "coco mix bags" which
+                    protects the parsley from any ground contaminants, as opposed to other farms who grow straight from
+                    the ground.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    Sydney water is used for irrigation by drippers ensuring that all fertigation is released straight
+                    to the
+                    roots with no chance of contamination on the produce from any unwanted water or other foreign
+                    matter. The irrigation is very closely monitored for water usage to ensure maximum efficiency.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    Our produce is totally enclosed in automated greenhouses giving them full protection from the
+                    external
+                    elements and environment including rain, hail, wind, vermin and animals.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    Our spraying is also conducted in a ventilated and atmospheric controlled area with the use of
+                    organic
+                    sprays used largely for pest management.
+                </p></div>
+            <div class="col-sm-6 col-lg-3 list-block-item">
+                <div class="text-center"><img src="images/tick.png" class="image-tick"></div>
+                <p>
+                    We ensure the utmost care and quality control, step by step, from planting our seeds to delivering
+                    our
+                    product. Our customer service and their satisfaction is unprecedented from the very start to the
+                    very
+                    end.
+                </p></div>
+        </div>
+
+        <!-- /END THE FEATURETTES -->
+
+
+    </div><!-- /.container -->
+
+    <hr class="featurette-divider">
+
+    <footer class="container">
+        <div class="row">
+            <a class="anchor" id="contact"></a>
+            <div class="col-md-6 text-center">
+                <img src="images/logo-full.png" alt="logo" width="350">
+            </div>
+            <div class="col-md-6 text-center m-auto">
+                <div class="text-left d-inline-block">
+                    <p class="font-weight-bold">
+                        1319-1321 Old Northern Rd,<br>
+                        Glenorie NSW 2157
+                    </p>
+                    <p><span class="font-weight-bold text-primary pr-3">P</span>0414 679 652</p>
+                    <p><span class="font-weight-bold text-primary pr-3">E</span><a
+                            href="mailto:alfred@flavourplus.com.au">alfred@flavourplus.com.au</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<!-- Custom scripts -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
